@@ -1,0 +1,46 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+li a img{
+   object-fit:cover ;
+   height: 14.5rem;
+   border-radius: 1rem;
+}
+
+li a{
+    height:22.5rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    overflow:visible;
+    color: #e72929;
+
+}
+li a:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: .3rem;
+    padding: .5rem 1rem;
+    position: relative;
+    height: 7rem;
+
+}
+
+.favorate{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+}
